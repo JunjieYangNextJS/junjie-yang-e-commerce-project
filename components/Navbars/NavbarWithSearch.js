@@ -8,10 +8,10 @@ import LocalMallIcon from "@material-ui/icons/LocalMall";
 import MenuIcon from "@material-ui/icons/Menu";
 import CloseIcon from "@material-ui/icons/Close";
 import { signIn, signOut, useSession } from "next-auth/client";
-import SearchBox from "./../SearchBox";
 import NavMenuExpanded from "./NavMenuExpanded";
 import { db } from "../../firebase";
 import { useLuxuriesTypes } from "../../contexts/LuxuriesContext";
+import SearchBox from "../SearchBox";
 
 const NavbarWithSearch = ({ searchQuery, setSearchQuery }) => {
   // handle Login Session
