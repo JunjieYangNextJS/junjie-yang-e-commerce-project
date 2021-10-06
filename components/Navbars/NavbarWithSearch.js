@@ -11,7 +11,7 @@ import { signIn, signOut, useSession } from "next-auth/client";
 import NavMenuExpanded from "./NavMenuExpanded";
 import { db } from "../../firebase";
 import { useLuxuriesTypes } from "../../contexts/LuxuriesContext";
-import SearchBox from "../SearchBox";
+import SearchBox from "./../SearchBox";
 
 const NavbarWithSearch = ({ searchQuery, setSearchQuery }) => {
   // handle Login Session
